@@ -1,10 +1,10 @@
-
+import '../styles/components/mainContent.sass'
 
 function MainContent() {
     return (
-        <div>
+        <main id='main-content'>
             MainContent
-        </div>
+        </main>
     )
 }
 export default MainContent
