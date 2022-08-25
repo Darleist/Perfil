@@ -5,6 +5,7 @@ import {
   AiOutlineMail,
   AiFillEnvironment
 } from 'react-icons/ai'
+import {FaLanguage} from 'react-icons/fa'
 
 function InformationContainer () {
   return (
@@ -13,6 +14,7 @@ function InformationContainer () {
         <AiFillPhone id='phone-icon'/>
         <div>
           <h3>Telefonte</h3>
+          <p>(45) 9105-1528</p>
           <p>+595 972 619076</p>
         </div>
       </div>
@@ -30,6 +32,14 @@ function InformationContainer () {
         <div>
           <h3>Localização</h3>
           <p>Foz do Iguaçu / PR</p>
+        </div>
+      </div>
+      <div className="info-card">
+        <FaLanguage id='language-icon'/>
+        <div>
+          <h3>Idiomas fluentes</h3>
+          <p>Português</p>
+          <p>Espanhol</p>
         </div>
       </div>
     </section>
